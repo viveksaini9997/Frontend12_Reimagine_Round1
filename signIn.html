@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft Sign-In</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/logos/Icon_MicrosoftSymbol.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo-content">
+                <img src="/images/logos/Icon_MicrosoftSymbol.png" alt="">
+                <a href="#ms-home" class="navbar-logo">Microsoft</a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Back to Home</a>
+                </li>
+            </ul>
+            <a href="signIn.html" title="signIn" class="btn"><button>sign in</button></a>
+            <div class="menu-icon" id="menu-icon">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    <div class="sign-container">
+        <div class="signin-box">
+            <h1>Sign in to Microsoft</h1>
+            <form id="signin-form">
+                <div class="input-group">
+                    <label for="email">Email or Phone</label>
+                    <input type="text" id="email" name="email" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button class="sign-btn" type="submit">Sign In</button>
+            </form>
+            <div class="options">
+                <a href="#">Forgot my password</a>
+                <a href="#">Create one!</a>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <img src="/images/logos/Icon_MicrosoftSymbol.png" alt="">
+                <h2>Microsoft</h2>
+                <p>At Microsoft, our mission is to empower every person and every organization on the planet to achieve more.</p>
+                <div class="socials">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-section links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#plans">Plans</a></li>
+                    <li><a href="#benefits">Benefits</a></li>
+                    <li><a href="Ms365.html">Microsoft 365</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 Microsoft 
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
